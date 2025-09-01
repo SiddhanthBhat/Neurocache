@@ -1,0 +1,26 @@
+{
+  "id": "1ee5f9e4-c407-4a8f-81a4-9d813914ea37",
+  "conference": "IEEE Transactions on Circuits and Systems for Video Technology",
+  "year": 2018,
+  "link": "10.1109/TCSVT.2017.2691801",
+  "domain": "CV",
+  "title": "Local Large-Margin Multi-Metric Learning for Face and Kinship Verification",
+  "summary": "This paper introduces a large-margin multi-metric learning (LM³L) method for face and kinship verification.  Unlike single-metric methods, LM³L jointly learns multiple distance metrics from multiple feature representations, maximizing correlations and enforcing large margins between positive and negative pairs.  Local metric learning (LML) and local LM³L variants are also proposed to exploit local manifold structures. Experiments on three face datasets demonstrate competitive results compared to state-of-the-art methods.",
+  "tags": "Metric Learning, Face Verification, Kinship Verification, Multi-Metric Learning, Local Metric Learning, Computer Vision",
+  "date_added": "2025-09-01T14:38:06",
+  "ready_to_publish": false,
+  "script": [
+    "Male: Welcome to the podcast. Today, we're discussing a new approach to face and kinship verification.",
+    "Female:  This research uses a technique called multi-metric learning, which is quite different from traditional methods.",
+    "Male: Exactly. Most methods learn a single distance metric. This paper learns multiple metrics, one for each type of facial feature.",
+    "Female: This allows for a more nuanced and accurate comparison of faces, capturing more subtle differences.",
+    "Male: They also incorporate local metric learning, adapting the metric to the specific area of the image.",
+    "Female: This helps account for variations in lighting, pose, and other factors that can affect single-metric performance.",
+    "Male:  Their large-margin approach ensures robust classification between similar and dissimilar faces.",
+    "Female: The results on three different datasets show that their method is competitive with state-of-the-art approaches.",
+    "Male: This multi-metric approach offers significant advantages for improving face and kinship verification accuracy.",
+    "Female: It's a significant step forward in developing more robust and accurate biometric systems.",
+    "Male:  The combination of global and local metrics allows for a more comprehensive analysis of facial features.",
+    "Female: Overall, it's a promising approach with real-world implications for various applications of facial recognition."
+  ]
+}

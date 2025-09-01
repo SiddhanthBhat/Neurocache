@@ -132,3 +132,4 @@ dist
 
 #model files
 ./backend/models/kokoro-v1.0.onnx
+backend/models/kokoro-v1.0.onnx

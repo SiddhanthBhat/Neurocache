@@ -1,0 +1,5 @@
+Male: Welcome back to "Tech & Health," the podcast that explores the intersection of technology and well-being! I'm your host, Alex. 
+Female: And I'm Sarah! Today, we're diving into a fascinating editorial from BMC Musculoskeletal Disorders, focusing on the incredible advancements in prosthetics and orthotics. Did you know that over 2 million people in the US alone live with limb loss? 
+Male: That's a staggering number, Sarah. And it highlights the critical need for innovation in this field. This editorial really paints a picture of how far we've come. 
+Female: Exactly! The paper discusses three key areas driving this progress. First, it highlights the personalization revolution fueled by 3D printing. No more one-size-fits-all prosthetics! 
+
