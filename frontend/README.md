@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zotero Plus Frontend
 
-## Getting Started
+This directory contains a Next.js application scaffolded to work with the
+Python backend of your research assistant. It implements the user flows
+outlined in the specification:
 
-First, run the development server:
+* List projects and create new ones
+* Upload PDF files into each project
+* View PDFs in-browser
+* Trigger backend jobs to extract metadata and generate podcasts
+* Display summaries and podcasts per PDF
+* Show a table of extracted metadata for all files in a project and allow
+  CSV export
+
+## Getting started
+
+Install dependencies and run the development server:
 
 ```bash
+cd frontend
+npm install
+cp .env.example .env.local # or create your own .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Create a `.env.local` at the project root (within `frontend/`) and set
+`NEXT_PUBLIC_BACKEND_URL` to the URL of your FastAPI server. For example:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+NEXT_PUBLIC_BACKEND_URL=http://localhost:8000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## UI components
 
-## Learn More
+This scaffold imports UI components from the [shadcn/ui](https://ui.shadcn.com/) library
+(`@/components/ui/button`, `@/components/ui/dialog`, etc.). You need to
+generate these components in your project before the code will compile.
 
-To learn more about Next.js, take a look at the following resources:
+You can add the required components using the shadcn CLI (run from
+within `frontend`):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npx shadcn@latest init
+npx shadcn@latest add button dialog input textarea badge tabs separator table
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Feel free to customize the components or replace them with your own. The
+imports in this scaffold assume a standard shadcn setup with the
+components placed under `src/components/ui`.
 
-## Deploy on Vercel
+## Notes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This frontend does not include any of the heavy lifting — PDF parsing,
+TTS generation, or Gemini summarization. Those remain in your Python
+backend. The pages call REST endpoints exposed by FastAPI to perform
+these tasks.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+You are free to extend this scaffold as you add features such as
+reference recommendations, LaTeX editing, arXiv integration and
+project-specific chatbots. See the TypeScript types in `src/lib/types.ts`
+for guidance on the expected shape of API responses.

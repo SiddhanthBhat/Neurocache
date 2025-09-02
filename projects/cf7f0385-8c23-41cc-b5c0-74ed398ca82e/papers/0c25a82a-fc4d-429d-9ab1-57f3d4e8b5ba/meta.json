@@ -1,0 +1,21 @@
+{
+  "conference": "IEEE Access",
+  "year": 2017,
+  "link": "https://doi.org/10.1109/ACCESS.2017.DOI",
+  "domain": "AI",
+  "title": "StructMamba: Structured Harmonic and Temporal Music Analysis via Dual-Axis Mamba and Attention",
+  "summary": "StructMamba, a novel dual-axis architecture, combines state-space modeling with global two-dimensional attention for music audio modeling.  It uses Mamba modules to independently learn harmonic and rhythmic dependencies from spectrograms, then fuses them through structured attention.  StructMamba outperforms CNN, transformer, and hybrid baselines on genre classification, onset detection, and structural segmentation tasks, exhibiting rare interpretability by aligning with music-theoretic constructs.",
+  "tags": "Music Information Retrieval, State Space Models, Mamba, Time-Frequency Modeling, Global Attention, Spectrograms, Deep Learning, Audio Analysis",
+  "script": [
+    "Male: Welcome to the podcast. Today, we're discussing StructMamba, a groundbreaking approach to music analysis.",
+    "Female:  It's a hybrid model that uses state-space models and attention mechanisms to understand music's complex structure.",
+    "Male: Exactly! It cleverly separates the analysis into harmonic (frequency) and rhythmic (time) components.",
+    "Female: Each component uses a Mamba module, which is efficient and can handle long-range dependencies.",
+    "Male:  Then, a 2D attention mechanism fuses these components, capturing global patterns like motifs and repetitions.",
+    "Female:  This dual-axis approach is unique, outperforming existing methods on benchmark tasks.",
+    "Male: The results are impressive, but what truly stands out is StructMamba's interpretability.",
+    "Female: Yes, its internal representations align with musical theory, making it easier to understand *why* it makes its predictions.",
+    "Male:  This opens doors for music education, annotation, and even music production.",
+    "Female:  StructMamba represents a significant advance in music AI, offering both accuracy and insights."
+  ]
+}

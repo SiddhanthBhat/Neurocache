@@ -1,0 +1,23 @@
+{
+  "conference": "IEEE Access",
+  "year": 2017,
+  "link": "https://doi.org/10.1109/ACCESS.2017.DOI",
+  "domain": "Genomics",
+  "title": "VIPER: Variational Inference for Pattern Extraction and Recognition in Genomes using Deep Learning Cancer Detection",
+  "summary": "VIPER is a novel deep learning framework for detecting cancer-causing mutations from genomic data.  It combines 1D Convolutional Neural Networks (Conv1D) with Mamba blocks (a structured state-space model) to capture local and long-range dependencies efficiently.  Evaluated on the Genome Screen Mutants VCF dataset, VIPER outperforms RNNs, CNNs, and Transformers in accuracy (97.30% validation), F1 score (97.13%), and computational efficiency, making it suitable for large-scale genomic analysis and precision oncology.",
+  "tags": "Genomics, Cancer Detection, Deep Learning, CNN, SSM, Mamba Blocks, VCF, Mutation Detection",
+  "script": [
+    "Male: Welcome to the podcast. Today we're discussing VIPER, a groundbreaking new approach to cancer mutation detection.",
+    "Female:  Exactly!  It leverages deep learning to analyze genomic sequences with unprecedented speed and accuracy.",
+    "Male: The key innovation is VIPER's hybrid architecture. It combines Conv1D layers for local pattern recognition...",
+    "Female: ...with Mamba blocks, a highly efficient state-space model, to capture long-range dependencies in genomic data.",
+    "Male:  Unlike traditional methods or Transformers, VIPER is remarkably scalable and computationally efficient.",
+    "Female:  Right.  Tests on the Genome Screen Mutants VCF dataset showed training accuracy of 96.84%, validation accuracy of 97.30%, and an F1 score of 97.13%.",
+    "Male:  These results significantly outperform existing deep learning models.",
+    "Female:  And importantly, VIPER maintains high precision and recall, making it clinically useful.",
+    "Male: This efficiency is crucial for processing large-scale genomic data, paving the way for wider adoption in clinical practice.",
+    "Female:  Absolutely. VIPER offers actionable insights for precision oncology by focusing on clinically relevant mutations.",
+    "Male:  Future work will focus on integrating multi-omics data for even more powerful diagnostics.",
+    "Female:  This research truly represents a significant advancement in cancer genomics."
+  ]
+}

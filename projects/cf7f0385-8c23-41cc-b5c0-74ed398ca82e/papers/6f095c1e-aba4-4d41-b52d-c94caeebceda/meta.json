@@ -1,0 +1,23 @@
+{
+  "conference": "IEEE Access",
+  "year": 2017,
+  "link": "https://doi.org/10.1109/ACCESS.2017.DOI",
+  "domain": "AI",
+  "title": "ATHENA: Adaptive Tunable Hyper-Efficient Nonlinear Activation for Enhanced Deep Learning Performance",
+  "summary": "This paper introduces ATHENA, a novel activation function designed to improve deep learning performance.  ATHENA addresses limitations of ReLU and its variants by providing smoother gradient flow and preventing the vanishing gradient problem.  Experimental results across various neural network architectures and datasets demonstrate that ATHENA enhances learning and outperforms traditional activation functions.",
+  "tags": "Deep Learning, Activation Function, ATHENA, ReLU, Gradient Flow, Neural Networks",
+  "script": [
+    "Male: Welcome to the podcast. Today, we're discussing a groundbreaking new activation function.",
+    "Female: That's right.  We'll be exploring ATHENA, which promises significant improvements in deep learning.",
+    "Male: ATHENA tackles the limitations of traditional activation functions like ReLU, particularly the 'dying ReLU' problem.",
+    "Female:  Exactly.  It achieves this through smoother gradient flow, preventing neurons from becoming inactive.",
+    "Male: The authors demonstrate ATHENA's effectiveness across various datasets and network architectures.",
+    "Female:  Their experiments show ATHENA consistently outperforming or matching the performance of existing functions.",
+    "Male:  One key advantage is improved convergence speed during training.",
+    "Female: And it also shows better generalization to unseen data.",
+    "Male: This makes ATHENA particularly promising for tasks with limited training data.",
+    "Female:  Overall, ATHENA offers a compelling alternative, balancing simplicity and performance.",
+    "Male:  It's a significant contribution to the field of deep learning.",
+    "Female:  Definitely worth further exploration and adoption."
+  ]
+}
